@@ -2,13 +2,16 @@
 
 .semaforo{
     background:black;
-    width: 100px;
+    width: 150px;
+    height: 350px;
     margin:auto;
+    padding-top: 10px;
 }
 .luz{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    margin:auto;
 }
 
 .luz.roja{
@@ -20,4 +23,7 @@
 }
 .luz.verde{
     background: green;
+}
+.brillo{
+    box-shadow: 0px 0px 35px white;
 }
